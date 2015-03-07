@@ -5,18 +5,19 @@
   
   <title>基于Hexo博客生成系统搭建GitHub Pages博客 | Tom的小圈子</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="欢迎来到Tom的小圈，这是我在GitHub Pages中的第一篇博客，在这里我把搭建博客的经验分享给大家。
-GitHub作为代码托管社区码工们应该无人不知，但是可能部分人还不知道GitHub Pages，它是GitHub提供的静态博客系统（静态页面管理系统，博客只是其中一种形式），它没有传统意义上的管理后台，不需要后端数据库支撑，所有内容都由自己想方设法生成。基于它我们可以为用户、组织、某个具体的">
+  <meta name="description" content="最近在GitHub上搭建了自己的博客，开篇文章就把自己搭建博客的过程分享给大家吧
+对于码工来说，GitHub大部分人都用过，GitHubPages可能大部分人没有实操过。它是GitHub提供的一个静态文件托管服务，最常见的是将博客托管在它上面，类似以前我们用过的虚拟主机，但是文件管理方式略有不同，传统的虚拟主机是将文件通过FTP方式提交，GitHub Pages将文件管理和GitHub项目融合在一">
 <meta property="og:type" content="article">
 <meta property="og:title" content="基于Hexo博客生成系统搭建GitHub Pages博客">
 <meta property="og:url" content="http://tom-wang.github.io/2015/03/07/hello-world/index.html">
 <meta property="og:site_name" content="Tom的小圈子">
-<meta property="og:description" content="欢迎来到Tom的小圈，这是我在GitHub Pages中的第一篇博客，在这里我把搭建博客的经验分享给大家。
-GitHub作为代码托管社区码工们应该无人不知，但是可能部分人还不知道GitHub Pages，它是GitHub提供的静态博客系统（静态页面管理系统，博客只是其中一种形式），它没有传统意义上的管理后台，不需要后端数据库支撑，所有内容都由自己想方设法生成。基于它我们可以为用户、组织、某个具体的">
+<meta property="og:description" content="最近在GitHub上搭建了自己的博客，开篇文章就把自己搭建博客的过程分享给大家吧
+对于码工来说，GitHub大部分人都用过，GitHubPages可能大部分人没有实操过。它是GitHub提供的一个静态文件托管服务，最常见的是将博客托管在它上面，类似以前我们用过的虚拟主机，但是文件管理方式略有不同，传统的虚拟主机是将文件通过FTP方式提交，GitHub Pages将文件管理和GitHub项目融合在一">
+<meta property="og:image" content="/img/hello-world/name-as-username.png">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="基于Hexo博客生成系统搭建GitHub Pages博客">
-<meta name="twitter:description" content="欢迎来到Tom的小圈，这是我在GitHub Pages中的第一篇博客，在这里我把搭建博客的经验分享给大家。
-GitHub作为代码托管社区码工们应该无人不知，但是可能部分人还不知道GitHub Pages，它是GitHub提供的静态博客系统（静态页面管理系统，博客只是其中一种形式），它没有传统意义上的管理后台，不需要后端数据库支撑，所有内容都由自己想方设法生成。基于它我们可以为用户、组织、某个具体的">
+<meta name="twitter:description" content="最近在GitHub上搭建了自己的博客，开篇文章就把自己搭建博客的过程分享给大家吧
+对于码工来说，GitHub大部分人都用过，GitHubPages可能大部分人没有实操过。它是GitHub提供的一个静态文件托管服务，最常见的是将博客托管在它上面，类似以前我们用过的虚拟主机，但是文件管理方式略有不同，传统的虚拟主机是将文件通过FTP方式提交，GitHub Pages将文件管理和GitHub项目融合在一">
 
   
   
@@ -175,7 +176,7 @@ GitHub作为代码托管社区码工们应该无人不知，但是可能部分�
   
     <div class="article-meta">
       <a href="/2015/03/07/hello-world/" class="article-date">
-  	<time datetime="2015-03-07T01:06:00.000Z" itemprop="datePublished">Mar 07</time>
+  	<time datetime="2015-03-07T09:27:25.000Z" itemprop="datePublished">Mar 07</time>
 </a>
     </div>
   
@@ -208,23 +209,24 @@ GitHub作为代码托管社区码工们应该无人不知，但是可能部分�
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>欢迎来到Tom的小圈，这是我在GitHub Pages中的第一篇博客，在这里我把搭建博客的经验分享给大家。</p>
-<p>GitHub作为代码托管社区码工们应该无人不知，但是可能部分人还不知道GitHub Pages，它是GitHub提供的静态博客系统（静态页面管理系统，博客只是其中一种形式），它没有传统意义上的管理后台，不需要后端数据库支撑，所有内容都由自己想方设法生成。基于它我们可以为用户、组织、某个具体的项目搭建博客，这里以我的博客为例介绍如何为用户搭建博客。组织的博客搭建和个人类似，项目的博客稍有不同需要在项目中建一个gh-pages分支（gh就是GitHub意思），具体例子可以参考<a href="https://github.com/seajs/seajs/tree/gh-pages" target="_blank" rel="external">SeaJS的官网</a>。</p>
-<p>生成静态页面的程序很多，有Jekyll、Octopress、Hexo等等，甚至是传统的CMS系统也可以胜任，我这里将介绍前端码工更熟悉的Hexo，它基于NodeJS开发。</p>
+        <p>最近在GitHub上搭建了自己的博客，开篇文章就把自己搭建博客的过程分享给大家吧</p>
+<p>对于码工来说，GitHub大部分人都用过，<a href="https://pages.github.com/" target="_blank" rel="external">GitHub<br>Pages</a>可能大部分人没有实操过。它是GitHub提供的一个静态文件托管服务，最常见的是将博客托管在它上面，类似以前我们用过的虚拟主机，但是文件管理方式略有不同，传统的虚拟主机是将文件通过FTP方式提交，GitHub Pages将文件管理和GitHub项目融合在一起，向指定的项目里提交文件即达到了管理文件的目的。它仅托管静态页面，所以在写博客时需要我们自己先生成好html文件再发布。</p>
+<p>生成静态页面的程序有很多，例如<a id="more"></a><code>Jekyll</code>、<code>Octopress</code>、<code>Hexo</code>等等，Hexo是NodeJS程序，对于前端码工来说更加亲切一些，因此我的博客采用了Hexo。</p>
 <p>整个博客的搭建分为以下步骤：</p>
 <ul>
 <li>注册GitHub账户，创建项目</li>
 <li>安装、使用Hexo</li>
 </ul>
-<h2 id="注册GitHub账户，创建项目">注册GitHub账户，创建项目</h2><h3 id="aaa">aaa</h3><p>不多说了，没有账户的OutMan浏览到这里就可以了</p>
-<h3 id="创建项目">创建项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a><br><a id="more"></a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+<h2 id="注册GitHub账户，创建项目">注册GitHub账户，创建项目</h2><h3 id="注册GitHub账户">注册GitHub账户</h3><p>这个不用多说，没有账户的OutMan浏览到这里就可以了</p>
+<h3 id="创建项目">创建项目</h3><p>项目的名字必须严格按照规范命名为<code>username.github.io</code>（将username换成你的GitHub账户名），这个名字同时也是专属你的子域名（取一个好名字多么重要！），如下<br><img src="/img/hello-world/name-as-username.png" alt="name-as-username"></p>
+<h3 id="Hello_World">Hello World</h3><p>添加一个静态页面，提交之后即可到浏览器输入你的专属域名进行验证</p>
+<p><strong>到这里博客已经搭建成功了，我们还需要使用静态页面生成器来生成页面，突显高逼格。接下来为大家介绍Hexo。</strong></p>
+<h2 id="安装、使用Hexo">安装、使用<a href="https://github.com/hexojs/hexo-cli" target="_blank" rel="external">Hexo</a></h2><h3 id="安装Hexo">安装Hexo</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<h3 id="初始化项目">初始化项目</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> your_blog_dir</span><br><span class="line"></span><br><span class="line"><span class="comment"># 等同于hexo i</span></span><br><span class="line">$ hexo init</span><br><span class="line">INFO  Copying data to ~/github/<span class="built_in">test</span></span><br><span class="line">INFO  You are almost <span class="keyword">done</span>! Don<span class="string">'t forget to run '</span>npm install<span class="string">' before you start blogging with Hexo!</span><br><span class="line"></span><br><span class="line">$ npm install</span></span><br></pre></td></tr></table></figure>
+<h3 id="新增页面">新增页面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 等同于hexo n "new post title"</span></span><br><span class="line">$ hexo new <span class="string">"new post title"</span></span><br></pre></td></tr></table></figure>
+<h3 id="生成静态文件">生成静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 等同于hexo g</span></span><br><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>最后，将生成的静态页面提交到GitHub就OK啦</p>
+<h3 id="配置Hexo">配置Hexo</h3><p>Hexo支持配置插件、主题，配置文件是_config.yml，插件主题也可以有自己的_config.yml。除官方主题外还有第三方开发者开发的主题，大家可以找个逼格高的主题。</p>
 
         
       
